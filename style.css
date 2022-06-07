@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+/* Comienza los estilos */
+.Fondo_pantalla{
+    background-color: rgb(191, 171, 203);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Header */
+.Titulo__principal{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.LogoHeader{
+    height: 100px;
+    width: 100px;
+}
+.Carrito{
+    height: 30px;
+    width: 30px;
+}
+.img_redes{
+    height: 30px;
+    width: 30px;
+}
+
+/* Carousel */
+
+
+.conte__carousel{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.formato__carousel{
+    background-color: black;
+    height: 100px;
+}
+
+.titulo__carousel{
+    padding: 1rem;
+}
+.parrafo__carousel{
+    font-weight: bold;   
+}
+
+
+/* Nosotros */
+
+.ubi__nosotros{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+/* Main */
+.Subtitulos__main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+.texto_mapa{
+    padding-left: 2rem;
+}
+.Imagen_contactos{
+    display: flex;
+    justify-content: center;
+}
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+}
+@media screen and (max-width:600px) {
+    .Imagen_contactos{
+        display: flex;
+        width: 120px;
+        height: 120px;
+        justify-content: flex-start;
+        padding-bottom: 1rem;
+    }
+
+    .Imagen__Destacada{
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -2,7 +2,7 @@
 
 /* Comienza los estilos */
 .Fondo_pantalla{
-    background-color: rgb(191, 171, 203);
+    background: linear-gradient(#029ffa9c, #0f0f0f);
     font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
 }
@@ -57,7 +57,11 @@
     height: 200px;
 }
 
-
+.Subtitulos__main:hover{
+    color: #000;
+    background-color: #12a2e6;
+    
+}
 
 /* Main */
 .Subtitulos__main{
@@ -74,12 +78,38 @@
     display: flex;
     justify-content: center;
 }
+
+
+.index{
+    height: 649px;
+} 
+
+.nosotros{
+    height: 750px;
+}
+
+.carrito{
+    height: 673px;
+}
+
+.contacto{
+    height: 665px;
+}
+
 /* Footer */
 .footer{
     display: flex;
     justify-content: center;
     font-size: 8px;
 }
+
+
+.imgCatalogo:hover{
+    height: 100px;
+}
+
+
+
 @media screen and (max-width:600px) {
     .Imagen_contactos{
         display: flex;
@@ -93,4 +123,15 @@
         width: 300px;
         height: 300px;
     }
+
+    .container.contacto{
+        padding-left: 1rem;
+    }
+    .contacto{
+        height: 740px;
+    }
 }
+
+
+
+
